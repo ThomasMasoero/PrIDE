@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PrIDE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="menu">
+  <ul>
+    <li style="margin-left: 25px;"> <a href="PrIDE.html" style="color: #cca8e9;"><b><u>PrIDE</u></b></a></li>
+    <li><a href="centri_partecipanti.html">Centri partecipanti</a></li>
+    <li><a href="partecipa.html">Partecipa</a></li>
+    <li><a href="#">Pubblicazioni</a></li>
+    <li><a href="#footer">Contatti</a></li>
+    <li><a href="https://www.icona.org/iuri/ICONA_db/Index.jsp?locale=it#!homePage">CRF PrIDE</a></li>
+  </ul>
+</div>
+
+<div class="intro">
+  <p>
+    <h2 class="titolo">
+      <span class="purple">Pr</span>evention
+      <span class="purple">I</span>CONA
+      <span class="purple">D</span>edicated
+      <span class="purple">E</span>nsemble
+    </h2>
+  </p>
+  <p>Implementazione di una Coorte italiana di persone in profilassi pre-esposizione a HIV-1 all’interno del network <a href="https://www.fondazioneicona.org/" id="icona">ICONA</a></p> 
+</div>
+<hr>
+<div class="row">
+  <div class="column">
+    <p class="studio">Lo studio si concentra sulla formazione di una vasta coorte di persone che utilizzano 
+      la profilassi pre-esposizione (PrEP) in Italia. <br>
+      Scopo principale: valutare nel tempo l'efficacia, la tollerabilità e il mantenimento della terapia della PrEP, 
+      nonché le sfide che influenzano il suo successo nel contesto italiano. <br>
+       Informazioni utili per programmare futuri interventi mirati a ottimizzare la gestione della PrEP e raggiungere l'obiettivo di ridurre 
+       i nuovi casi di HIV in Italia. Obiettivi secondari includono valutare l'accettazione della PrEP, l'aderenza al trattamento, la soddisfazione, 
+       le modifiche comportamentali e l'incidenza di infezioni sessualmente trasmissibili.
+    </p>
+  </div>
+
+  <div class="column">
+    <div class="sub column-left">
+      <iframe id="map1" src="https://datawrapper.dwcdn.net/F3Fv1/2/" scrolling="no" frameborder="0" height="757" width="100%" class="mappa"></iframe>
+    </div>
+    <div class="sub column-right">
+      <button onclick="changeMap('https://datawrapper.dwcdn.net/F3Fv1/4/', 'map1')" class="pulsante_mappa">Nuovi utenti PrEP  2023</button><br>
+      <button onclick="changeMap('https://datawrapper.dwcdn.net/lc27U/2/', 'map1')" class="pulsante_mappa">Totale utenti PrEP</button><br>
+      <button onclick="changeMap('https://datawrapper.dwcdn.net/Rz5iz/4/', 'map1')" class="pulsante_mappa">Utenti in Follow up 2023</button>
+      <button onclick="changeMap('https://datawrapper.dwcdn.net/sdOzN/2/', 'map1')" class="pulsante_mappa">Numero centri</button>
+    </div>
+  </div>
+</div>
+
+<footer id="footer">
+  <p>Fondazione ICONA</p>
+  <p>Via Guido D'Arezzo, 15, 20145 Milano MI</p>
+  <p><a href="mailto:info.pride@icona.org" class="email">info.pride@icona.org</a></p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
